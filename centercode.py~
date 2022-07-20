@@ -2,14 +2,14 @@ import os
 import csv
 import pandas as pd
 path='/home/tgt/Desktop/segregatation/wrongtag1.csv'
-dataframe =pd.read_csv(path)
+df=pd.read_csv(path)
 #print(df)
-list1 = [dataframe ]
+list1 = [df]
 
 result = list()
 centercode=[]
-for dataframe  in list1:
-    result += dataframe.values.flatten().tolist()
+for df in list1:
+    result += df.values.flatten().tolist()
     #print(result)
     for j in map(str,result):
         a,b=j[0:6],j[6:12]
