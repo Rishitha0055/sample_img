@@ -6,7 +6,7 @@ import csv
 import shutil
 path_csv_data='/home/tgt/Downloads/wrongtag_05-05-2022/wrongtag_evening_05_05_2022.csv'
 
-#path_dir='/home/tgt/Downloads/wrongtag_05-05-2022/evening'
+path_dir='/home/tgt/Downloads/wrongtag_05-05-2022/evening'
 #path ='/home/tgt/Downloads/wrongtag_05-05-2022/EVENING_PHOTOS'
 length = 0
 df=pd.read_csv(path_csv_data)
